@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  .btn {
+    border: none;
+    padding: 0.8rem 3.2rem;
+    color: #000;
+    font-weight: 600;
+  }
+
+  /* Home page */
+.hero {
+    padding: 2% 11%;
+  }
+  .hero header {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .hero h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+  }
+  .hero article {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+  }
+  .card {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .card h4 {
+    margin: 1rem 0;
+  }
+
+  /* about */
+
+  .about-section {
+    padding: 2rem;
+  }
+  .about-section p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 1rem 0;
+  }
+  
+  .user-profile-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .user-profile-container button {
+    border: 0.1rem #333;
+    margin-bottom: 1rem;
+  }
+  .user-profile-container span {
+    display: block;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 500;
+    margin: 0.5rem;
+  }
+  .user-profile-container h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  
+  .info-container {
+    border-top: 0.1rem solid #dddddd;
+    margin: 0 2rem 0 0;
+    padding: 0 2rem 0 0;
+  }
+
+  /* Contact */
+  .contact-us{
+    padding: 4% 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  form{
+    width: 20rem;
+  
+  }
+  .inputbox{
+    outline: none;
+    border: .1rem solid #dddddd;
+    padding: .8rem;
+    display: block;
+    margin: 1rem 0 ;
+  }
+  .form-btn{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    border: .6rem;
+    padding: .8rem 1.6rem;
+  }
